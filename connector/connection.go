@@ -45,7 +45,7 @@ func NewSSSHConnection(device *Device, cfg *config.Config) (*SSHConnection, erro
 	device.Auth(sshConfig)
 
 	c := &SSHConnection{
-		Host:         "1.2.3.4" + ":" + device.Port,
+		Host:         "10.0.34.1" + ":" + device.Port,
 		batchSize:    batchSize,
 		clientConfig: sshConfig,
 	}
