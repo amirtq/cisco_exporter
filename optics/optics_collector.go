@@ -4,9 +4,9 @@ import (
 	"log"
 	"regexp"
 
-	"github.com/lwlcom/cisco_exporter/rpc"
+	"github.com/amirtq/cisco_exporter/rpc"
 
-	"github.com/lwlcom/cisco_exporter/collector"
+	"github.com/amirtq/cisco_exporter/collector"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

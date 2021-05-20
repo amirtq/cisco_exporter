@@ -1,7 +1,7 @@
 package collector
 
 import (
-	"github.com/lwlcom/cisco_exporter/rpc"
+	"github.com/amirtq/cisco_exporter/rpc"
 
 	"github.com/prometheus/client_golang/prometheus"
 )

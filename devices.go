@@ -4,8 +4,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/lwlcom/cisco_exporter/config"
-	"github.com/lwlcom/cisco_exporter/connector"
+	"github.com/amirtq/cisco_exporter/config"
+	"github.com/amirtq/cisco_exporter/connector"
 	"github.com/pkg/errors"
 )
 

@@ -1,14 +1,14 @@
 package main
 
 import (
-	"github.com/lwlcom/cisco_exporter/bgp"
-	"github.com/lwlcom/cisco_exporter/collector"
-	"github.com/lwlcom/cisco_exporter/config"
-	"github.com/lwlcom/cisco_exporter/connector"
-	"github.com/lwlcom/cisco_exporter/environment"
-	"github.com/lwlcom/cisco_exporter/facts"
-	"github.com/lwlcom/cisco_exporter/interfaces"
-	"github.com/lwlcom/cisco_exporter/optics"
+	"github.com/amirtq/cisco_exporter/bgp"
+	"github.com/amirtq/cisco_exporter/collector"
+	"github.com/amirtq/cisco_exporter/config"
+	"github.com/amirtq/cisco_exporter/connector"
+	"github.com/amirtq/cisco_exporter/environment"
+	"github.com/amirtq/cisco_exporter/facts"
+	"github.com/amirtq/cisco_exporter/interfaces"
+	"github.com/amirtq/cisco_exporter/optics"
 )
 
 type collectors struct {

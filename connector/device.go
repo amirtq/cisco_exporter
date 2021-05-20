@@ -3,12 +3,12 @@ package connector
 import (
 	"io"
 
-	"github.com/lwlcom/cisco_exporter/config"
+	"github.com/amirtq/cisco_exporter/config"
 	"golang.org/x/crypto/ssh"
 )
 
 type Device struct {
-	Host1        string
+	Host         string
 	Port         string
 	Auth         AuthMethod
 	ClientConfig ssh.ClientConfig
