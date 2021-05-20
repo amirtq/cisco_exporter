@@ -43,6 +43,8 @@ func (c *Client) Identify() error {
 		c.OSType = NXOS
 	case strings.Contains(output, "IOS Software"):
 		c.OSType = IOS
+	case strings.Contains(output, "IOS (tm)"):
+		c.OSType = IOS
 	default:
 		return errors.New("Unknown OS")
 	}
