@@ -8,7 +8,7 @@ import (
 )
 
 type Device struct {
-	Host         string
+	Host1        string
 	Port         string
 	Auth         AuthMethod
 	ClientConfig ssh.ClientConfig

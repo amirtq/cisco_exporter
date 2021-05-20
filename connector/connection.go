@@ -72,7 +72,7 @@ type SSHConnection struct {
 // Connect connects to the device
 func (c *SSHConnection) Connect() error {
 	var err error
-	c.client, err = ssh.Dial("tcp", c.Hostx, c.clientConfig)
+	c.client, err = ssh.Dial("tcp", c.Host, c.clientConfig)
 	if err != nil {
 		return err
 	}
