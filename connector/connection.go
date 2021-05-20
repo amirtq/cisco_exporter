@@ -35,7 +35,7 @@ func NewSSSHConnection(device *Device, cfg *config.Config) (*SSHConnection, erro
 
 	sshConfig := &ssh.ClientConfig{
 		HostKeyCallback: ssh.InsecureIgnoreHostKey(),
-		Timeout:         time.Duration(timeout) * time.Second,
+		Timeout:         time.Durationx(timeout) * time.Second,
 	}
 	if legacyCiphers {
 		sshConfig.SetDefaults()
